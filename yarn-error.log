@@ -1,0 +1,72 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\Lidia Freitas\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js install
+
+PATH: 
+  C:\Python27\;C:\Python27\Scripts;C:\ProgramData\Oracle\Java\javapath;C:\Ruby22\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;c:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Program Files (x86)\Microsoft SQL Server\110\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\120\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\130\DTS\Binn\;C:\wamp64\bin\php\php5.6.25;C:\ProgramData\ComposerSetup\bin;C:\Program Files\Microsoft\Web Platform Installer\;C:\chromedriver;C:\Program Files\dotnet\;C:\tools;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Users\Lidia Freitas\AppData\Roaming\npm;C:\Users\Lidia Freitas\AppData\Local\atom\bin;C:\Users\Lidia Freitas\AppData\Roaming\Composer\vendor\bin;C:\Program Files\Heroku\bin
+
+Yarn version: 
+  0.24.5
+
+Node version: 
+  6.9.4
+
+Platform: 
+  win32 x64
+
+npm manifest: 
+  {
+    "private": true,
+    "engines": {
+      "node": ">=4"
+    },
+    "devDependencies": {
+      "babel-core": "^6.4.0",
+      "babel-preset-es2015": "^6.3.13",
+      "babel-register": "^6.5.2",
+      "browser-sync": "^2.2.1",
+      "del": "^2.2.0",
+      "gulp": "^3.9.0",
+      "gulp-autoprefixer": "^3.0.1",
+      "gulp-babel": "^6.1.1",
+      "gulp-cache": "^0.4.2",
+      "gulp-cssnano": "^2.0.0",
+      "gulp-eslint": "^3.0.0",
+      "gulp-htmlmin": "^3.0.0",
+      "gulp-if": "^2.0.2",
+      "gulp-imagemin": "^3.0.1",
+      "gulp-load-plugins": "^1.2.4",
+      "gulp-plumber": "^1.0.1",
+      "gulp-size": "^2.1.0",
+      "gulp-sourcemaps": "^2.2.0",
+      "gulp-uglify": "^2.0.0",
+      "gulp-useref": "^3.0.0",
+      "main-bower-files": "^2.5.0",
+      "run-sequence": "^1.2.2",
+      "wiredep": "^4.0.0"
+    },
+    "eslintConfig": {
+      "env": {
+        "es6": true,
+        "node": true,
+        "browser": true
+      },
+      "rules": {
+        "quotes": [
+          2,
+          "single"
+        ]
+      }
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
+
+Trace: 
+  Error: connect ETIMEDOUT 104.16.59.173:443
+      at Object.exports._errnoException (util.js:1022:11)
+      at exports._exceptionWithHostPort (util.js:1045:20)
+      at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1087:14)

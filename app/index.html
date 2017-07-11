@@ -1,0 +1,110 @@
+<!doctype html>
+<html class="no-js" lang="">
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>leanTable</title>
+
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    <!-- Place favicon.ico in the root directory -->
+
+    <!-- build:css styles/vendor.css -->
+    <!-- bower:css -->
+    <link rel="stylesheet" href="/bower_components/bootstrap/dist/css/bootstrap.css" />
+    <!-- endbower -->
+    <!-- endbuild -->
+
+    <!-- build:css styles/leanTable.css -->
+    <link rel="stylesheet" href="styles/main.css">
+    <!-- endbuild -->
+
+    <!-- build:js scripts/modernizr.js -->
+    <script src="/bower_components/modernizr/modernizr.js"></script>
+    <!-- endbuild -->
+</head>
+<body>
+<!--[if IE]>
+<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade
+    your browser</a> to improve your experience.</p>
+<![endif]-->
+
+<section class="container">
+    <div class="row">
+        <div id="notification" class="alert alert-dismissible col-md-6 col-md-offset-3" role="alert"></div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-12">
+            <div class="page-header">
+                <h1>leanTable
+                    <small> A simple data table lib</small>
+                </h1>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-6 col-md-offset-6 text-right">
+            <form class="form-inline form-search" id="component-input-search"></form>
+        </div>
+
+        <div class="col-md-12">
+            <table class="table table-striped" id="leanTable"></table>
+        </div>
+
+        <div class="col-md-3">
+            <form class="form-inline form-rows-per-page" id="rows-length"></form>
+        </div>
+
+        <div class="col-md-9 text-right">
+            <nav id="pager"></nav>
+        </div>
+    </div>
+</section>
+
+<!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+<script>
+    (function (b, o, i, l, e, r) {
+        b.GoogleAnalyticsObject = l;
+        b[l] || (b[l] =
+            function () {
+                (b[l].q = b[l].q || []).push(arguments)
+            });
+        b[l].l = +new Date;
+        e = o.createElement(i);
+        r = o.getElementsByTagName(i)[0];
+        e.src = 'https://www.google-analytics.com/analytics.js';
+        r.parentNode.insertBefore(e, r)
+    }(window, document, 'script', 'ga'));
+    ga('create', 'UA-XXXXX-X');
+    ga('send', 'pageview');
+</script>
+
+<!-- build:js scripts/vendor.js -->
+<!-- bower:js -->
+<script src="/bower_components/jquery/dist/jquery.js"></script>
+<!-- endbower -->
+<!-- endbuild -->
+
+
+<!-- build:js scripts/leanTable.js -->
+<script src="scripts/DataAccess/resource.js"></script>
+<script src="scripts/DataAccess/dataRepository.js"></script>
+
+<script src="scripts/Services/dataService.js"></script>
+
+<script src="scripts/Models/tableModel.js"></script>
+<script src="scripts/Models/rowsLengthSelector.js"></script>
+<script src="scripts/Models/pagerModel.js"></script>
+<script src="scripts/Models/searchModel.js"></script>
+<script src="scripts/Models/notificationModel.js"></script>
+
+<script src="scripts/main.js"></script>
+<!-- endbuild -->
+</body>
+</html>
+
+<table>
+
+</table>
